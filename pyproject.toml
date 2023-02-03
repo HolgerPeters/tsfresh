@@ -38,6 +38,9 @@ email = ""
 
 
 [project.optional-dependencies]
+matrixprofile = ['matrixprofile>=1.1.10,<2.0.0']
+
+[project.dev-dependencies]
 test = [
     "pytest-benchmark>=4.0.0",
     "mock>=5.0.1",
